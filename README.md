@@ -19,7 +19,7 @@ I have used Figma to create the wireframes: [Click Here]()
    - **Acceptance Criteria:** Button to work correctly and redirect users to the About page.
    - **Measurement Of Success:** Test on live demo.
 
-2. As a user, I would like to click on a recent news post or staff member sectuib which will direct me to a separate unique page for that post.
+2. As a user, I would like to click on a recent news post or staff member section which will direct me to a separate unique page for that post.
 
    - **End User Goal:** User is able to click on post and be directed to another page corresponding to that post.
    - **End Business Goal:** Functionality for the links elements and URLs to work correctly.
