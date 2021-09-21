@@ -1,0 +1,34 @@
+/* General */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* About */
+.competitors-list {
+  list-style: circle;
+}
+
+/* Staff */
+.jumbotron {
+  margin-top: 56px;
+  height: 250px;
+}
+
+.a-link__tags {
+  color: #000;
+  text-decoration: none;
+}
+
+.a-link__tags:hover {
+  color: rgba(0, 0, 0, 0.486);
+}
+
+/* Footer */
+.footer-a__links {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-a__links:hover {
+  color: rgba(255, 255, 255, 0.658);
+}

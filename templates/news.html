@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ single_news.title }}
+{% endblock %}
+
+{% block content %}
+<div class="justify-content-center my-5">
+    <h2 class="text-center py-5">{{ single_news.title }}</h2>
+    <div class="row">
+        <div class="col-12">
+            <h5>Story:</h5>
+            <p>{{ single_news.additional }}</p>
+        </div>
+    </div>
+</div>
+<div class="text-center my-5">
+    <a href="/" class="btn btn-secondary">Back</a>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ member.name }}
+{% endblock %}
+
+{% block content %}
+<div class="justify-content-center my-5">
+    <h1 class="text-center py-5">{{ member.name }}</h1>
+    <div class="row">
+        <div class="col-sm-12 col-md-5 col-lg-5 text-center">
+            <img src="{{ member.image_source }}" class="img-fluid rounded" alt="{{ member.name }}">
+        </div>
+        <div class="col-sm-12 col-md-7 col-lg-7">
+            <h5><strong>Role:</strong></h5>
+            <p>{{ member.position }}</p>
+            <h5><strong>Additional Information:</strong></h5>
+            <p>{{ member.more_info }}</p>
+        </div>
+    </div>
+    <div class="text-center my-5">
+        <a href="/staff" class="btn btn-secondary">Back</a>
+    </div>
+</div>
+{% endblock %}
