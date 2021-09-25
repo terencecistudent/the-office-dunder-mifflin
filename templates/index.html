@@ -1,23 +1,10 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %} 
 
-{% block title %}
-Dunder Miffin US
-{% endblock %}
-
-{% block jumbotron %}
-<div class="p-5 text-center bg-light jumbotron">
-    <h1 class="mb-3">Dunder Mifflin Paper Co.</h1>
-    <h4 class="mb-3">America's Best Paper Supply Business</h4>
-    <a class="btn btn-secondary" href="/about" role="button">Find Out
-        More
-        Here...</a>
-</div>
-{% endblock %}
+{% block title %} Dunder Miffin US {% endblock %} 
 
 {% block content %}
 <div class="justify-content-center my-5">
-
-    <h3 class="text-center my-4">Recent News</h3>
+    <h2 class="text-center my-4">Recent News</h2>
 
     {% for news in recent_news %}
     <a href="/news/{{ news.url }}" class="a-link__tags">
@@ -26,7 +13,7 @@ Dunder Miffin US
     <a href="/news/{{ news.url }}" class="a-link__tags">
         <p>{{ news.content }}</p>
     </a>
-    <hr>
+    <hr />
     {% endfor %}
 </div>
 {% endblock %}

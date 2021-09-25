@@ -10,8 +10,21 @@ body {
 
 /* Staff */
 .jumbotron {
+  background-image: url("../images/cast.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-top: 56px;
-  height: 250px;
+  height: 60vh;
+}
+
+.jumbotron-section {
+  background-color: #e3e3e38f;
+  height: -webkit-fill-available;
+}
+
+.jumbotron-h1 {
+  padding-top: 25vh;
+  font-size: 60px;
 }
 
 .a-link__tags {
