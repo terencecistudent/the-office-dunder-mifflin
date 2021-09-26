@@ -6,7 +6,7 @@ I have created responsive website to illustrate my skills of using the Flask fra
 
 ## Wireframes
 
-I have used Figma to create the wireframes: [Click Here]()
+I have used Figma to create the wireframes: [Click Here](https://github.com/terencecistudent/the-office-dunder-mifflin/blob/main/wireframes/dundermifflin-wireframes.pdf)
 
 ## UX
 
