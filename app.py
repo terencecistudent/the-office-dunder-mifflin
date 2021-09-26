@@ -2,6 +2,9 @@ from flask import Flask, render_template, request, flash
 import json
 import os
 
+if os.path.exists("env.py"):
+    import env
+
 app = Flask(__name__)
 
 app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY")
