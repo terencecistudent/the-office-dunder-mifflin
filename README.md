@@ -54,7 +54,7 @@ Access to desktop, laptop, table or mobile devices and internet connection to vi
 
 I have used Heroku to host this website, using Heroki CLI.
 
-Visit the live demo at [Dunder Mifflin US](https://dunder-mifflin-us-tl.herokuapp.com/)
+Visit the live demo at [Dunder Mifflin US](https://dundermifflin-information.herokuapp.com/)
 
 ## Installing
 
