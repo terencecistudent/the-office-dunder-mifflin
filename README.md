@@ -66,11 +66,11 @@ You can download it from here: https://code.visualstudio.com/
 
 ### Manual Testing
 
-Manual tests can be found [here]()
+Manual tests can be found [here](https://github.com/terencecistudent/the-office-dunder-mifflin/blob/main/testing/manual_tests.pdf)
 
 ### Responsiveness on different devices
 
-Responsiveness tests can be found [here]()
+Responsiveness tests can be found [here](https://github.com/terencecistudent/the-office-dunder-mifflin/blob/main/testing/responsive_tests.pdf)
 
 ### Running Responsive Designs on Google Chrome:
 
