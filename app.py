@@ -1,9 +1,7 @@
 from flask import Flask, render_template, request, flash
 import json
 import os
-
-if os.path.exists("env.py"):
-    import env
+import env
 
 app = Flask(__name__)
 
